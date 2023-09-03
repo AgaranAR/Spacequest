@@ -1,0 +1,135 @@
+*{
+   margin: 0;
+   padding: 0;
+   box-sizing: border-box;
+
+
+}
+*,*:before,*:after{
+ box-sizing: inherit;
+ }
+.Article , .header{
+  background-color: #FFFAFA;
+}
+nav{
+  width:100vw;
+  height:50px;
+  position: fixed;
+  background:rgba(0, 0,0,0.8);
+  color:#F5F5F5;
+  font-size: 25px;
+  font-family: 'Share Tech', sans-serif;
+  box-shadow: 0px 9px 6px black;
+}
+.headbar{
+ display:inline-flex;
+ position: fixed;
+ flex-wrap: wrap;
+ gap:200px;
+ align-items: center;
+
+}
+.headbar h5{
+ margin-left: -200px;
+}
+.headbar img{
+ display: flex;
+ justify-content: flex-start;
+ height:53px;
+ width:53px;
+}
+.headbar a{
+ text-decoration: none;
+ color: white;
+ padding-left: 600px;
+}
+.Article img{
+  width:800px;
+  height:600px;
+  padding-top: 100px;
+  padding-bottom: 40px;
+  padding-left: 80px;
+
+}
+.header{
+  font-size: 40px;
+  text-decoration: underline black 3px;
+  background-color:#FAF0E6;
+  border-bottom: dashed black 4px;
+  box-shadow: 1px 8px 9px white;
+  z-index: 1;
+  font-family: 'Cinzel', serif;
+}
+.content-wrap{
+  height:140px;
+  width:100%;
+  padding-top: 130px;
+  padding-left: 80px;
+  padding-right: 50px;
+  padding-bottom: 100px;
+}
+.Article{
+  font-size: 25px;
+  height:3500px;
+  padding-top: 80px;
+  line-height: 1.5;
+  padding-left: 19px;
+  padding-right: 19px;
+  font-family: 'Raleway', sans-serif;
+}
+.Article h6{
+  padding-top: 30px;
+
+}
+.footer {
+  height:150px;
+  width:100vw;
+  background-color: black;
+  font-size: 30px;
+  color: whitesmoke;
+    box-shadow: 0px -3px 9px black;
+}
+.footer i{
+  color: whitesmoke;
+  font-size: 50px;
+}
+.footer p{
+  transform: translate(580px,20px);
+}
+.footer #insta{
+  transform: translate(450px,30px);
+}
+.footer #fb{
+  transform: translate(520px,30px);
+}
+.footer #linkedin{
+  transform: translate(590px,30px);
+}
+.footer #mail{
+  transform: translate(660px,30px);
+}
+.footer i:hover{
+  font-size: 60px;
+}
+.bottom {
+  height:20px;
+  width:100vw;
+  display:flex;
+  flex-direction:row;
+  justify-content: space-around;
+  background-color: black;
+
+
+}
+.bottom p{
+  margin-left: -180px;
+  text-decoration: none;
+  color: whitesmoke;
+}
+.bottom a{
+  text-decoration: none;
+}
+html {
+  /* overscroll-behavior-x:contain; */
+   overflow-x: hidden;
+ }

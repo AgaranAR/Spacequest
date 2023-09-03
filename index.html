@@ -1,0 +1,123 @@
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link href="https://fonts.googleapis.com/css2?family=Tektur&display=swap" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css2?family=Share+Tech&display=swap" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Ysabeau+SC:wght@200&display=swap" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css2?family=Titillium+Web:ital,wght@1,300&display=swap" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@200&display=swap" rel="stylesheet">
+  <script src="https://kit.fontawesome.com/64e4ec7cd8.js" crossorigin="anonymous"></script>
+  <title>SpaceQuest</title>
+  <link rel="stylesheet" href="css/styles.css">
+  <link rel="icon" type="image/png" href="images/logo.png"/>
+</head>
+<body>
+  <nav>
+    <ul class="menu">
+      <li class="logo"><img src="images/astro3.png"></li>
+      <li class="logo"><h4>SpaceQuest</h4></li>
+
+
+        <li class="tech" ><a href="file:///A:/web%20development/projects/p1/sub/tech.html">Tech</a></li>
+        <li class="launch"><a href="file:///A:/web%20development/projects/p1/sub/spacex.html">Launch</a></li>
+        <li class="navbar"><p>More</p>
+            <ul class="dropdown">
+                <li><a href="file:///A:/web%20development/projects/p1/sub/life.html">Search for life</a></li>
+                <li><a href="file:///A:/web%20development/projects/p1/sub/Astro.html">Astronomy</a></li>
+                <li><a href="file:///A:/web%20development/projects/p1/sub/movie.html">Entertainment</a></li>
+                <li><a href="file:///A:/web%20development/projects/p1/sub/sky.html">Skywatching</a></li>
+            </ul>
+            </li>
+        <li class="contact"><p>Contact us</p>
+          <ul class="dropdown">
+            <li><a href="mailto:agaranar04@gmail.com">email</a></li>
+            <li><a href="#">About Us</a></li>
+          </ul>
+        </li>
+        <div class="togglebtn">
+        <i class="fa-solid fa-bars" id="menubtn"></i>
+      </div>
+      </ul>
+        <div class="resdrop">
+          <li class="tech" ><a href="file:///A:/web%20development/projects/p1/sub/tech.html">Tech</a></li>
+          <li class="launch"><a href="file:///A:/web%20development/projects/p1/sub/spacex.html">Launch</a></li>
+          <li class="navbar"><p>More</p>
+              <ul class="dropdown">
+                  <li><a href="file:///A:/web%20development/projects/p1/sub/life.html">Search for life</a></li>
+                  <li><a href="file:///A:/web%20development/projects/p1/sub/Astro.html">Astronomy</a></li>
+                  <li><a href="file:///A:/web%20development/projects/p1/sub/movie.html">Entertainment</a></li>
+                  <li><a href="file:///A:/web%20development/projects/p1/sub/sky.html">Skywatching</a></li>
+              </ul>
+              </li>
+          <li class="contact"><p>Contact us</p>
+            <ul class="dropdown">
+              <li><a href="mailto:agaranar04@gmail.com">email</a></li>
+              <li><a href="#">About Us</a></li>
+            </ul>
+          </li>
+        </div>
+      </nav>
+<script>
+     const togglebtn = document.querySelector('.togglebtn')
+     const togglebtnicon = document.querySelector('.togglebtn i')
+     const resdrop = document.querySelector('.resdrop')
+     togglebtnicon.onclick()=function(){
+     resdrop.classList.toggle('open')
+ }
+</script>
+
+<div class="wrapper">
+  <header>
+    <img src="images/1268197.jpg" class="background">
+
+    <h1 class="title">Space news</h1>
+    <br>
+    <h4 class="tagline">Beyond Earth: Unveiling the Wonders of the Universe!</h4>
+  </header>
+   <section class="content">
+     <h3>Starry Updates :</h3>
+     <div class="content-wrapper">
+     <div class="n1">
+       <a href="file:///A:/web%20development/projects/p1/sub/spacex.html">
+       <img src="images/spacex.jpg">
+       <h5>SpaceX launches 15<br> Starlink satellites </h5>
+       <p>A SpaceX Falcon 9 rocket launched <br>15 Starlinksatellites toward orbit early <br>Thursday (July 20)and came back down for a landing on a ship at sea...</p>
+    </a> </div>
+      <div class="n2">
+        <a href="file:///A:/web%20development/projects/p1/sub/chan.html">
+        <img src="images/chan35.jpg">
+        <h5> India's Rover mission has embarked upon its historic and circuitous journey to the moon - Chandrayaan 3</h5>
+      </a></div>
+      <div class="n3">
+        <a href="file:///A:/web%20development/projects/p1/sub/jameswebb.html">
+          <img src="images/jam.jpg">
+          <h5>The James Webb<br> Space Telescope<br> has detected<br> diamond-like<br> carbon dust</h5>
+      </a></div>
+      <div class="n4">
+        <a href="file:///A:/web%20development/projects/p1/sub/glitch.html">
+        <img src="images/mag.jpg">
+        <h5> Anti-glitch from a Neutron<br> Star</h5>
+        <p>According to a new study, a neutron<br> star, spinning rapidly with an<br> immensely potent magnetic field,<br> experienced a "glitch" during <br>its collision with a space rock...</p>
+      </a></div>
+      <div class="n5">
+        <a href="file:///A:/web%20development/projects/p1/sub/apollo11.html">
+        <img src="images/moonfoot.jpg">
+        <h5>54 Years Ago: Apollo 11<br> Crew Walks on the Moon</h5>
+      </a></div>
+    </div>
+</section>
+<footer>
+  <section class="footer">
+    <p>Contact Us</p>
+    <a href="https://www.instagram.com/agaran_ar_29/"><i class="fa-brands fa-instagram" id="insta"></i></a>
+    <a href="https://www.facebook.com/"><i class="fa-brands fa-square-facebook" id="fb"></i></a>
+    <a href="https://www.linkedin.com/in/agaran-a-r-3bb169256"><i class="fa-brands fa-linkedin" id="linkedin"></i></a>
+    <a href="mailto:agaranar04@gmail.com"><i class="fa-regular fa-envelope" id="mail"></i></a>
+  </section>
+</footer>
+<section class="bottom">
+  <p>@2023 SpaceQuest</p>
+  <a href="#"><p>Terms and conditions</p></a>
+  <a href="#"><p>Privacy</p></a>
+</section>
